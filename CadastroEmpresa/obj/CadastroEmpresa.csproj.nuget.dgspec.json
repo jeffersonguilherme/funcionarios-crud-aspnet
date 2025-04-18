@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "/home/jefferson/Documentos/CadastroFuncionarios/CadastroEmpresa/CadastroEmpresa.csproj": {}
+    "/home/jefferson/Documentos/GitHub/funcionarios-crud-aspnet/CadastroEmpresa/CadastroEmpresa.csproj": {}
   },
   "projects": {
-    "/home/jefferson/Documentos/CadastroFuncionarios/CadastroEmpresa/CadastroEmpresa.csproj": {
+    "/home/jefferson/Documentos/GitHub/funcionarios-crud-aspnet/CadastroEmpresa/CadastroEmpresa.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/home/jefferson/Documentos/CadastroFuncionarios/CadastroEmpresa/CadastroEmpresa.csproj",
+        "projectUniqueName": "/home/jefferson/Documentos/GitHub/funcionarios-crud-aspnet/CadastroEmpresa/CadastroEmpresa.csproj",
         "projectName": "CadastroEmpresa",
-        "projectPath": "/home/jefferson/Documentos/CadastroFuncionarios/CadastroEmpresa/CadastroEmpresa.csproj",
+        "projectPath": "/home/jefferson/Documentos/GitHub/funcionarios-crud-aspnet/CadastroEmpresa/CadastroEmpresa.csproj",
         "packagesPath": "/home/jefferson/.nuget/packages/",
-        "outputPath": "/home/jefferson/Documentos/CadastroFuncionarios/CadastroEmpresa/obj/",
+        "outputPath": "/home/jefferson/Documentos/GitHub/funcionarios-crud-aspnet/CadastroEmpresa/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "/home/jefferson/.nuget/NuGet/NuGet.Config"

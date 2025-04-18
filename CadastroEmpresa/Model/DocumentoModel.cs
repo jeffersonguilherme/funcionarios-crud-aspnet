@@ -8,7 +8,5 @@ namespace CadastroEmpresa.Model{
         public string NumeroRg { get; set; }
         public string PisPasep { get; set; }
         public string TituloEleitor { get; set; }
-        
-
     }
 }
