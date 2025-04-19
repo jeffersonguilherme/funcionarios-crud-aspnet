@@ -10,13 +10,14 @@ namespace CadastroEmpresa.Data{
 
         protected override void OnConfiguring(DbContextOptionsBuilder options)
         {
-            options.UseSqlite("DataSource=app.db;Cache=Shared");
+            options.UseSqlServer("Server=localhost,1433;Database=CadastroFuncionario;User ID=sa;Password=Xy23h2o1@Sql;TrustServerCertificate=True");
         }
 
         protected override void OnModelCreating(ModelBuilder builder)
         {
             builder.ApplyConfiguration(new DocumentoMap());
             builder.ApplyConfiguration(new FuncionarioMap());
+            builder.ApplyConfiguration(new DepartamentoMap());
         }
     }
 }

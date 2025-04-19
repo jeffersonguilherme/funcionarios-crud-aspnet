@@ -8,6 +8,6 @@ namespace CadastroEmpresa.Model{
         public int DocumentoId { get; set; }
         public DocumentoModel DocumentoModel { get; set; }
         public int DepartamentoId { get; set; }
-        public DepartamentoModel DepartamentoModel { get; set; }
+        public virtual DepartamentoModel DepartamentoModel { get; set; }
     }
 }

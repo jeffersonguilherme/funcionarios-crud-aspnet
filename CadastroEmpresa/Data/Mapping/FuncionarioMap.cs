@@ -32,7 +32,7 @@ namespace CadastroEmpresa.Data.Mapping{
                     .HasMaxLength(160);
                 
             builder.HasOne(x => x.DepartamentoModel)
-                    .WithMany(x => x.FuncionarioModel)
+                    .WithMany(x => x.Funcionarios)
                     .HasForeignKey(x =>x.DepartamentoId)
                     .OnDelete(DeleteBehavior.Restrict);
         }
