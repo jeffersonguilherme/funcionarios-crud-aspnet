@@ -5,7 +5,6 @@ namespace CadastroEmpresa.Model{
         public DateTime DataNascimento { get; set; }
         public string Nacionalidade { get; set; }
         public string Naturalidade { get; set; }
-        public int DocumentoId { get; set; }
         public DocumentoModel DocumentoModel { get; set; }
         public int DepartamentoId { get; set; }
         public virtual DepartamentoModel DepartamentoModel { get; set; }
